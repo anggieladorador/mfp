@@ -17,9 +17,6 @@ const devConfig = {
       },
       shared: packageJSON.dependencies,
     }),
-    new HtmlWebpackPlugin({
-      template: './public/index.html',
-    }),
   ],
 };
 module.exports = merge(commonConfig, devConfig);
